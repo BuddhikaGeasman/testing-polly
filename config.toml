@@ -1,0 +1,12 @@
+baseURL = "http://localhost:1313"
+languageCode = "en"
+defaultContentLanguage="en"
+title = "Testing Polly"
+theme = "jane"
+defaultContentLanguageInSubdir = true
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "This is Home"
+  weight = 10
+  identifier = "home"
+  url = "/post/"
