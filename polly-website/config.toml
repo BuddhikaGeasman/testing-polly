@@ -7,7 +7,12 @@ defaultContentLanguageInSubdir = true
 uglyurls = true
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "This is Home"
+  name = "Home"
   weight = 10
   identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Posts"
+  weight = 20
+  identifier = "posts"
   url = "/post/"
