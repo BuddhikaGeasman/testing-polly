@@ -34,4 +34,4 @@ jobs:
 
       - deploy :
           command: |
-            aws s3 sync --delete --acl "public-read" --sse "AES256" polly-website/ s3://testing-polly
+            aws s3 sync --delete --sse "AES256" polly-website/public/ s3://testing-polly
