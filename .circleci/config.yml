@@ -27,6 +27,11 @@ jobs:
             hugo version
 
       - run :
+          name: Add articles to be converted to audio by Polly
+          command: |
+            aws s3 polly-webiste/articles/ s3://testing-polly-code-bucket/articles/
+
+      - run :
           name: Build website
           command: |
             cd polly-website

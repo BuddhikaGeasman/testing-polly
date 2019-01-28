@@ -6,6 +6,9 @@ theme = "jane"
 defaultContentLanguageInSubdir = true
 uglyurls = true
 
+[params]
+  pollyMediaURL = "https://s3.us-east-1.amazonaws.com/testing-polly-polly-bucket"
+
 [[menu.main]]             # config your menu              # 配置目录
   name = "Home"
   weight = 10
@@ -16,3 +19,9 @@ uglyurls = true
   weight = 20
   identifier = "posts"
   url = "/post/"
+
+[[menu.main]]
+    name = "Begin"
+    weight = 20
+    identifier = "begin"
+    url = "/begin/"
